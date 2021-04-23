@@ -1,0 +1,12 @@
+name: sample_module
+main_class: SampleDevice
+status: inactive
+level: normal
+hub_type: sample_hub_type
+device_types: [
+  sample_iot_sensor
+]
+training_variables: [
+  is_reachable
+]
+machine_learning: False
